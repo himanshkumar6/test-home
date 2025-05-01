@@ -1,4 +1,5 @@
 import MobileMenu from './Mobilebar'
+import mylogo from '../assets/logo.png'
 
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
       {/* Desktop Navbar */}
       <div className="flex justify-between lg:mx-36 items-center lg:justify-between m-[auto]">
         <div>
-          <img src="../src/assets/logo.png" alt="Logo" className="md:h-20 h-15 lg:h-24" />
+          <img src={mylogo} alt="Logo" className="md:h-20 h-15 lg:h-24" />
         </div>
         <div className="flex font-semibold text-lg">
           <ul className="flex">

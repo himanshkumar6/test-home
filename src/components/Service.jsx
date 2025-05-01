@@ -1,3 +1,14 @@
+import myMarketing from '../assets/marketing.png'
+import myBusiness from '../assets/business.png'
+import myFinancial from '../assets/financial.png'
+import myHuman from '../assets/human.png'
+import mySales from '../assets/sales.png'
+import myDigital from '../assets/digital.png'
+
+
+
+
+
 const Service = () => {
   return (
     <>
@@ -31,7 +42,7 @@ const Service = () => {
           {/* Card 1 */}
           <div className="bg-white rounded-lg shadow-2xl p-6 text-left transform transition-transform duration-300 hover:scale-105 cursor-pointer">
             <div className="mb-4 flex justify-start px-3">
-              <img src="../src/assets/marketing.png" alt="Business Strategy" className="h-16 w-auto md:h-20 md:w-auto" />
+              <img src={myMarketing} alt="Marketing Strategy" className="h-16 w-auto md:h-20 md:w-auto" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 px-7">Marketing Strategy</h3>
             <p className="text-sm text-gray-600 mt-2 px-7">
@@ -44,7 +55,7 @@ const Service = () => {
           {/* Card 2 */}
           <div className="bg-white rounded-lg shadow-2xl p-6 text-left transform transition-transform duration-300 hover:scale-105 cursor-pointer">
             <div className="mb-4 flex justify-start px-1">
-              <img src="../src/assets/financial.png" alt="Business Strategy" className="h-16 w-auto" />
+              <img src={myFinancial} alt="Financial management" className="h-16 w-auto" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 px-7">Financial management</h3>
             <p className="text-sm text-gray-600 mt-2 px-7">
@@ -57,7 +68,7 @@ const Service = () => {
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-2xl p-6 text-left transform transition-transform duration-300 hover:scale-105 cursor-pointer">
             <div className="mb-4 flex justify-start px-1">
-              <img src="../src/assets/business.png" alt="Business Strategy" className="h-16 w-auto" />
+              <img src={myBusiness} alt="Business Strategy" className="h-16 w-auto" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 px-7">Business Strategy</h3>
             <p className="text-sm text-gray-600 mt-2 px-7">
@@ -70,7 +81,7 @@ const Service = () => {
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-2xl p-6 text-left transform transition-transform duration-300 hover:scale-105 cursor-pointer">
             <div className="mb-4 flex justify-start px-3">
-              <img src="../src/assets/sales.png" alt="Business Strategy" className="h-16 w-auto" />
+              <img src={mySales} alt="Sales and Marketing" className="h-16 w-auto" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 px-7">Sales and Marketing</h3>
             <p className="text-sm text-gray-600 mt-2 px-7">
@@ -83,7 +94,7 @@ const Service = () => {
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-2xl p-6 text-left transform transition-transform duration-300 hover:scale-105 cursor-pointer">
             <div className="mb-4 flex justify-start px-2">
-              <img src="../src/assets/digital.png" alt="Business Strategy" className="h-16 w-auto" />
+              <img src={myDigital} alt="Digital Technology" className="h-16 w-auto" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 px-7">Digital Technology</h3>
             <p className="text-sm text-gray-600 mt-2 px-7">
@@ -96,7 +107,7 @@ const Service = () => {
           {/* Card 3 */}
           <div className="bg-white rounded-lg shadow-2xl p-6 text-left transform transition-transform duration-300 hover:scale-105 cursor-pointer">
             <div className="mb-4 flex justify-start px-4">
-              <img src="../src/assets/human.png" alt="Business Strategy" className="h-16 w-auto" />
+              <img src={myHuman} alt="Human Resources" className="h-16 w-auto" />
             </div>
             <h3 className="text-lg font-semibold text-gray-900 px-7">Human Resources</h3>
             <p className="text-sm text-gray-600 mt-2 px-7">

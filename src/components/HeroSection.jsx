@@ -1,7 +1,9 @@
+import myhero from '../assets/hero.png'
+
 const HeroSection = () => {
   return (
     <div>
-      <img src="../src/assets/hero.png" alt="Logo" width={"100%"} />
+      <img src={myhero} alt="Logo" width={"100%"} />
     </div>
   )
 }
